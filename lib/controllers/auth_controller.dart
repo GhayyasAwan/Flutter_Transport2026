@@ -6,6 +6,9 @@ import '../pages/login_page.dart';
 
 class AuthController {
 
+  //This Class to Mainitan Apri Service Methods.
+
+
   // 1. Centralized Login API Call
   static Future<Map<String, dynamic>> login(String username, String password) async {
     // Matches your C# LoginRequest object
